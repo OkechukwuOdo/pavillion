@@ -1,0 +1,126 @@
+header{
+    width:100%;
+    height: 100px;
+    background-color: white;
+    box-shadow: 0px 0px 4px 2px #ccc;
+}
+
+.headerMiddle{
+    width:17%;
+    height: 100px;
+}
+.searches{
+    width: 35%;
+    height: 100px;
+    
+}
+.logo-div{
+    width:40%;
+    height: 100px;
+    
+}
+.input-label-search{
+    width:90%;
+    height: 25px;
+    padding: 10px;
+    border: 1px solid #000;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+}
+.icon-search{
+    font-size: 14px;
+}
+.inputDesign{
+    width:90%;
+    height:23px;
+    border: 0px;
+    outline: none;
+}
+.row-two{
+    width: 100%;
+    position: relative;
+    top: 3px;
+}
+
+/* Sidebar */
+aside{
+    width:17%;
+    height: 90vh;
+    background-color: white;
+
+}
+aside li{
+    list-style: none;
+    margin-bottom: 10px;
+    width:70%;
+    height: 35px;
+    display: flex;
+    align-items: center;
+}
+aside li a{
+    text-decoration: none;
+    color: #706e6e;
+}
+.fontIcon{
+    color: #706e6e;
+}
+
+/* Main */
+main{
+    width:83%;
+    height: 90vh;
+    background-color: #f8f8f8;
+}
+.main-rowOne{
+    width:95%;
+    height: 200px;
+    margin: 20px;
+}
+.main-rowTwo{
+    width:96%;
+    height: auto;
+    margin: 20px;
+    background-color: white;
+
+}
+.but{
+    width:100px;
+    height:45px;
+    background:rgb(5, 99, 231);
+    border:0px;
+    color:white;
+    border-radius:5px
+}
+.main-rowTwo table{
+    width:95% !important;
+    border-collapse: none !important;
+}
+thead{
+    background:rgb(97, 161, 250);
+    height: 50px;
+}
+  table thead th{
+    text-align: left !important;
+    padding: 10px;
+
+
+}
+table tbody td{
+    text-align: left !important;
+    background-color: #f8f8f8;
+    padding: 6px;
+}
+
+table tbody td .button2{
+    padding: 10px;
+    border: 1px solid red;
+    color: red;
+    margin:5px
+}
+table tbody td .button1{
+    padding: 10px;
+    border: 1px solid green;
+    color: green;
+    margin:5px
+}
